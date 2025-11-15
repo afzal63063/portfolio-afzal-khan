@@ -3,7 +3,7 @@
 This is my personal portfolio website created for the **Suvidha Foundation Web Skill Development Internship**.
 
 ## 🔗 Live Website
-(Add your Vercel URL here after deployment)
+(https://portfolio-afzal-khan.vercel.app/)
 
 ## 📌 Features
 - Responsive portfolio website  
