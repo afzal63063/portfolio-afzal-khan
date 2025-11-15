@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Afzal Khan — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container">
+      <h1 class="brand">AFZAL KHAN</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <img src="assets/profile.jpg" alt="Afzal Khan" class="avatar">
+      <div class="hero-text">
+        <h2>Hi, I'm Afzal Khan</h2>
+        <p class="tagline">Full-Stack Developer • AI & Data Science machine learning</p>
+        <p class="intro">I design and build responsive web apps and AI demos. Looking for placement opportunities.</p>
+        <div class="cta">
+          <a href="#projects" class="btn">See Projects</a>
+          <a href="#contact" class="btn outline">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h3>About</h3>
+      <p><strong>Education:</strong> B.Tech — Computer Science & Engineering (AI), G.L. Bajaj Institute of Technology & Management.</p>
+      <p><strong>Interests:</strong> AI, Data Science, Web Development, Full-Stack Engineering.</p>
+      <p><strong>Goal:</strong> To contribute to impactful web and AI projects and secure an entry-level role in software development.</p>
+    </section>
+
+    <section id="skills" class="container section">
+      <h3>Skills</h3>
+      <div class="skills-grid">
+        <div class="skill"><label>HTML</label><div class="bar"><div style="width:90%"></div></div></div>
+        <div class="skill"><label>CSS / Tailwind</label><div class="bar"><div style="width:85%"></div></div></div>
+        <div class="skill"><label>JavaScript / React</label><div class="bar"><div style="width:80%"></div></div></div>
+        <div class="skill"><label>Python (AI/DS)</label><div class="bar"><div style="width:75%"></div></div></div>
+      </div>
+    </section>
+
+    <section id="projects" class="container section">
+      <h3>Projects</h3>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h4>Fake Product Identification Using Blockchain</h4>
+          <p>Blockchain-based product authenticity verification. <br>
+             Tech: Solidity, Web3, HTML/CSS/JS.<br>
+             <a href="https://fake-product-identification-using.onrender.com" target="_blank">Live Demo</a> •
+             <a href="https://github.com/afzal63063/Fake-Product-Identification-Using-Blockchain" target="_blank">Code</a>
+          </p>
+        </article>
+
+        <article class="project-card">
+          <h4>Tiny AI App</h4>
+          <p>Streamlit AI demos (text/image). <br>
+             Tech: Python, Streamlit.<br>
+             <a href="https://afzal63063-tiny-ai-app-app-6yj46f.streamlit.app/" target="_blank">Live Demo</a> •
+             <a href="https://github.com/afzal63063/tiny-ai-app" target="_blank">Code</a>
+          </p>
+        </article>
+
+        <article class="project-card">
+          <h4>Mock E-Commerce Cart (Vibe Commerce Store)</h4>
+          <p>Frontend e-commerce prototype with cart flow. <br>
+             Tech: HTML/CSS/JS (or React).<br>
+             <a href="https://github.com/afzal63063/mock-ecom-cart" target="_blank">Code</a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="achievements" class="container section">
+      <h3>Achievements & Certifications</h3>
+      <ul>
+        <li>Eduonix — Become A Certified Web Developer From Scratch (Sep 24, 2024)</li>
+        <li>UiPath RPA Virtual Internship</li>
+        <li>Oracle Cloud / AI Foundations</li>
+        <li>PythonEssentials 1/PythonEssentials 2 </li>
+        <li>Microchip / Cisco certificates (see docs)</li>
+      </ul>
+      <div class="suvidha-note">
+        <strong>Note:</strong> This portfolio was developed as part of the Suvidha Foundation International Skill Development Internship.
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:afzal63063@gmail.com">afzal63063@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/afzal63063">github.com/afzal63063</a> • LinkedIn: <a href="https://www.linkedin.com/in/afzal-khan-618b00250">linkedin.com/in/afzal-khan</a></p>
+
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your name" required>
+        <input type="email" id="email" placeholder="Your email" required>
+        <textarea id="message" rows="4" placeholder="Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© Afzal Khan — Hosted on Vercel</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

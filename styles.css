@@ -1,0 +1,22 @@
+*{box-sizing:border-box;font-family:Arial,Helvetica,sans-serif;margin:0}
+body{background:#f6f8fb;color:#0b1720;line-height:1.5}
+.container{max-width:980px;margin:0 auto;padding:20px}
+.nav{background:#fff;border-bottom:1px solid #eee}
+.nav .container{display:flex;align-items:center;justify-content:space-between}
+.nav a{margin-left:14px;color:#333;text-decoration:none;font-weight:600}
+.hero{display:flex;gap:24px;align-items:center;padding:30px 0}
+.avatar{width:120px;height:120px;border-radius:12px;object-fit:cover;box-shadow:0 6px 18px rgba(10,10,10,.06)}
+.tagline{color:#0ea5a4;font-weight:600}
+.btn{display:inline-block;padding:10px 14px;border-radius:8px;background:#0ea5a4;color:#fff;text-decoration:none;margin-right:8px}
+.btn.outline{background:transparent;border:2px solid #0ea5a4;color:#0ea5a4}
+.section{padding:18px 0;border-top:1px solid #eef2f6}
+.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.skill label{font-weight:600;margin-bottom:6px;display:block}
+.bar{background:#eef2f6;border-radius:8px;height:12px;overflow:hidden}
+.bar > div{height:100%;background:linear-gradient(90deg,#0ea5a4,#06b6d4);border-radius:8px}
+.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.project-card{padding:12px;border-radius:10px;background:#fff;border:1px solid #eee}
+.suvidha-note{margin-top:12px;padding:12px;background:#f3faf8;border-left:4px solid #0ea5a4;border-radius:6px}
+footer{padding:18px 0;text-align:center;color:#666}
+form input, form textarea{width:100%;padding:10px;margin:8px 0;border:1px solid #d7dbe0;border-radius:8px}
+@media(max-width:720px){.hero{flex-direction:column;text-align:center}.nav nav{display:none}}
