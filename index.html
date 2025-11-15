@@ -1,15 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Afzal Khan — Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Afzal Khan - Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
+
+  <!-- NAVIGATION -->
   <header class="nav">
     <div class="container">
-      <h1 class="brand">AFZAL KHAN</h1>
+      <h1 class="brand">Afzal Khan</h1>
       <nav>
         <a href="#home">Home</a>
         <a href="#about">About</a>
@@ -21,100 +30,222 @@
     </div>
   </header>
 
-  <main>
-    <section id="home" class="hero">
-      <img src="assets/profile.jpg" alt="Afzal Khan" class="avatar">
-      <div class="hero-text">
-        <h2>Hi, I'm Afzal Khan</h2>
-        <p class="tagline">Full-Stack Developer • AI & Data Science machine learning</p>
-        <p class="intro">I design and build responsive web apps and AI demos. Looking for placement opportunities.</p>
-        <div class="cta">
-          <a href="#projects" class="btn">See Projects</a>
-          <a href="#contact" class="btn outline">Contact Me</a>
-        </div>
+  <!-- HERO SECTION -->
+  <section class="hero fade-in" id="home">
+    <div class="hero-left">
+      <img src="assets/profile photo.png" alt="Afzal Khan" class="avatar-glow" />
+    </div>
+
+    <div class="hero-right">
+      <h2 class="hero-title">Hi, I'm <span>Afzal Khan</span></h2>
+
+      <p class="tagline">Full-Stack Developer • AI & Machine Learning • Data Science Enthusiast</p>
+
+      <p class="intro">
+        I design and build impactful, modern, responsive applications using Web Technologies & AI.
+        I’m actively seeking placement opportunities in Full-Stack Development and AI/ML roles.
+      </p>
+
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="#contact" class="btn outline">Contact Me</a>
+      <a href="assets/Afzal_Khan Resume 3.pdf" class="btn outline" target="_blank">
+  View Resume
+</a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="container fade-in" id="about">
+    <h3>Afzal Khan</h3>
+
+    <p><strong>Education:</strong> B.Tech (AI), G.L. Bajaj Institute of Technology & Management.</p>
+
+    <p><strong>Interests:</strong> Artificial Intelligence, Data Science, Machine Learning,
+      Web Development, Full-Stack Engineering.</p>
+
+    <p><strong>Career Goal:</strong> To contribute to impactful AI-based and full-stack solutions while continuously learning and growing as a software engineer.</p>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section class="container fade-in" id="skills">
+    <h3>Technical Skills</h3>
+
+    <div class="skills-grid">
+
+      <div class="skill">
+        <label>HTML</label>
+        <div class="bar"><div style="width:95%"></div></div>
       </div>
-    </section>
 
-    <section id="about" class="container section">
-      <h3>About</h3>
-      <p><strong>Education:</strong> B.Tech — Computer Science & Engineering (AI), G.L. Bajaj Institute of Technology & Management.</p>
-      <p><strong>Interests:</strong> AI, Data Science, Web Development, Full-Stack Engineering.</p>
-      <p><strong>Goal:</strong> To contribute to impactful web and AI projects and secure an entry-level role in software development.</p>
-    </section>
-
-    <section id="skills" class="container section">
-      <h3>Skills</h3>
-      <div class="skills-grid">
-        <div class="skill"><label>HTML</label><div class="bar"><div style="width:90%"></div></div></div>
-        <div class="skill"><label>CSS / Tailwind</label><div class="bar"><div style="width:85%"></div></div></div>
-        <div class="skill"><label>JavaScript / React</label><div class="bar"><div style="width:80%"></div></div></div>
-        <div class="skill"><label>Python (AI/DS)</label><div class="bar"><div style="width:75%"></div></div></div>
+      <div class="skill">
+        <label>CSS / Tailwind</label>
+        <div class="bar"><div style="width:90%"></div></div>
       </div>
-    </section>
 
-    <section id="projects" class="container section">
-      <h3>Projects</h3>
-      <div class="projects-grid">
-        <article class="project-card">
-          <h4>Fake Product Identification Using Blockchain</h4>
-          <p>Blockchain-based product authenticity verification. <br>
-             Tech: Solidity, Web3, HTML/CSS/JS.<br>
-             <a href="https://fake-product-identification-using.onrender.com" target="_blank">Live Demo</a> •
-             <a href="https://github.com/afzal63063/Fake-Product-Identification-Using-Blockchain" target="_blank">Code</a>
-          </p>
-        </article>
-
-        <article class="project-card">
-          <h4>Tiny AI App</h4>
-          <p>Streamlit AI demos (text/image). <br>
-             Tech: Python, Streamlit.<br>
-             <a href="https://afzal63063-tiny-ai-app-app-6yj46f.streamlit.app/" target="_blank">Live Demo</a> •
-             <a href="https://github.com/afzal63063/tiny-ai-app" target="_blank">Code</a>
-          </p>
-        </article>
-
-        <article class="project-card">
-          <h4>Mock E-Commerce Cart (Vibe Commerce Store)</h4>
-          <p>Frontend e-commerce prototype with cart flow. <br>
-             Tech: HTML/CSS/JS (or React).<br>
-             <a href="https://github.com/afzal63063/mock-ecom-cart" target="_blank">Code</a>
-          </p>
-        </article>
+      <div class="skill">
+        <label>JavaScript / React</label>
+        <div class="bar"><div style="width:85%"></div></div>
       </div>
-    </section>
 
-    <section id="achievements" class="container section">
-      <h3>Achievements & Certifications</h3>
-      <ul>
-        <li>Eduonix — Become A Certified Web Developer From Scratch (Sep 24, 2024)</li>
-        <li>UiPath RPA Virtual Internship</li>
-        <li>Oracle Cloud / AI Foundations</li>
-        <li>PythonEssentials 1/PythonEssentials 2 </li>
-        <li>Microchip / Cisco certificates (see docs)</li>
-      </ul>
-      <div class="suvidha-note">
-        <strong>Note:</strong> This portfolio was developed as part of the Suvidha Foundation International Skill Development Internship.
+      <div class="skill">
+        <label>Python (AI/ML)</label>
+        <div class="bar"><div style="width:75%"></div></div>
       </div>
-    </section>
 
-    <section id="contact" class="container section">
-      <h3>Contact</h3>
-      <p>Email: <a href="mailto:afzal63063@gmail.com">afzal63063@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/afzal63063">github.com/afzal63063</a> • LinkedIn: <a href="https://www.linkedin.com/in/afzal-khan-618b00250">linkedin.com/in/afzal-khan</a></p>
+      <div class="skill">
+        <label>Java</label>
+        <div class="bar"><div style="width:75%"></div></div>
+      </div>
 
-      <form id="contactForm">
-        <input type="text" id="name" placeholder="Your name" required>
-        <input type="email" id="email" placeholder="Your email" required>
-        <textarea id="message" rows="4" placeholder="Message" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-    </section>
-  </main>
+      <div class="skill">
+        <label>MySQL</label>
+        <div class="bar"><div style="width:70%"></div></div>
+      </div>
 
-  <footer class="container footer">
-    <p>© Afzal Khan — Hosted on Vercel</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="container fade-in" id="projects">
+  <h3>Projects</h3>
+
+  <div class="projects-grid">
+
+    <!-- PROJECT 1 -->
+    <div class="project-card">
+      <h4 class="project-title">Fake Product Identification Using Blockchain</h4>
+
+      <p><strong>Problem:</strong> Counterfeit products create financial and safety risks.</p>
+      <p><strong>Solution:</strong> Built a blockchain-based verification system using smart contracts & QR scanning.</p>
+      <p><strong>Tech Stack:</strong> Solidity, Web3.js, JavaScript, HTML/CSS</p>
+
+      <div class="project-links">
+        <a href="https://fake-product-identification-using.onrender.com" class="project-link" target="_blank">Live Demo</a>
+        •
+        <a href="https://github.com/afzal63063/Fake-Product-Identification-Using-Blockchain" class="project-link" target="_blank">Code</a>
+        •
+        <a href="assets/Fake Product Deduction 1.pdf" class="project-link" target="_blank">View Report (PDF)</a>
+      </div>
+    </div>
+
+    <!-- PROJECT 2 -->
+    <div class="project-card">
+      <h4 class="project-title">Super-Smart AI Text Summarizer</h4>
+
+      <p><strong>Problem:</strong> Long documents take time to understand.</p>
+      <p><strong>Solution:</strong> Developed an AI summarizer using NLP & Streamlit UI.</p>
+      <p><strong>Tech Stack:</strong> Python, Streamlit, NLP Models</p>
+
+      <div class="project-links">
+        <a href="https://afzal63063-tiny-ai-app-app-6yj46f.streamlit.app/" class="project-link" target="_blank">Live Demo</a>
+        •
+        <a href="https://github.com/afzal63063/tiny-ai-app" class="project-link" target="_blank">Code</a>
+        •
+        <a href="assets/Super-Smart AI Text Summarizer 1.pdf" class="project-link" target="_blank">View Report (PDF)</a>
+      </div>
+    </div>
+
+    <!-- PROJECT 3 -->
+    <div class="project-card">
+      <h4 class="project-title">Vibe Commerce Store</h4>
+
+      <p><strong>Problem:</strong> Online stores need simple, user-friendly cart systems.</p>
+      <p><strong>Solution:</strong> Designed a responsive frontend e-commerce cart app.</p>
+      <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+
+      <div class="project-links">
+        <a href="https://github.com/afzal63063/mock-ecom-cart" class="project-link" target="_blank">Code</a>
+        •
+        <a href="assets/Vibe Commece Store 1.pdf" class="project-link" target="_blank">View Report (PDF)</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- ACHIEVEMENTS -->
+<section class="container fade-in" id="achievements">
+  <h3>Achievements & Certifications</h3>
+
+  <ul class="achievement-list">
+
+    <li>
+      <strong>Become A Certified Web Developer From Scratch</strong> — Eduonix (Sep 24, 2024)
+      <a href="assets/web devloper certificate.jpeg" class="project-link" target="_blank">View Certificate</a>
+    </li>
+
+    <li>
+      <strong>UiPath RPA Virtual Internship</strong> — AICTE/Eduskills (Sep–Nov 2023)
+      <a href="assets/uipath rpa virtual intership.jpg" class="project-link" target="_blank">View Certificate</a>
+    </li>
+
+    <li>
+      <strong>Oracle Cloud / AI Foundations</strong> — Oracle University (Oct 29, 2025)
+      <a href="assets/Oracle Cloud  AI Foundations.jpg" class="project-link" target="_blank">View Certificate</a>
+    </li>
+
+    <li>
+      <strong>Cybersecurity Virtual Internship</strong> — Cisco/AICTE (Jun–Aug 2025)
+      <a href="assets/Virtual Internship Program in Cybersecurity.jpg" class="project-link" target="_blank">View Certificate</a>
+    </li>
+
+    <li>
+      <strong>Python Essentials 1</strong> — Cisco (May 14, 2025)
+      <a href="assets/PythonEssentials 1.jpg" class="project-link" target="_blank">View Certificate</a>
+    </li>
+
+    <li>
+      <strong>Python Essentials 2</strong> — Cisco (May 14, 2025)
+      <a href="assets/PythonEssentials 2.jpg" class="project-link" target="_blank">View Certificate</a>
+    </li>
+
+    <li>
+      <strong>Embedded Systems Virtual Internship</strong> — AICTE/Eduskills (Jul–Aug 2024)
+      <a href="assets/Embedded System Developer virtual Intership.jpg" class="project-link" target="_blank">View Certificate</a>
+    </li>
+
+  </ul>
+
+  <div class="suvidha-note">
+    <p><strong>Note:</strong> This portfolio was developed as part of the Suvidha Foundation International Skill Development Internship.</p>
+  </div>
+</section>
+
+
+  <!-- CONTACT -->
+<section class="container fade-in" id="contact">
+  <h3>Contact</h3>
+
+  <p><strong>Email:</strong>
+    <a href="mailto:afzal63063@gmail.com" class="project-link">afzal63063@gmail.com</a>
+  </p>
+
+  <p><strong>GitHub:</strong>
+    <a href="https://github.com/afzal63063" target="_blank" class="project-link">
+      github.com/afzal63063
+    </a>
+  </p>
+
+  <p><strong>LinkedIn:</strong>
+    <a href="https://www.linkedin.com/in/afzal-khan-618b00250" target="_blank" class="project-link">
+      linkedin.com/in/afzal-khan-618b00250
+    </a>
+  </p>
+
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Message" rows="4" required></textarea>
+    <button class="btn">Send Message</button>
+  </form>
+</section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    © 2025 Afzal Khan — Full-Stack Developer & AI Enthusiast
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
