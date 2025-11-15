@@ -324,3 +324,28 @@ form button {
 .project-link:hover {
   text-decoration: underline;
 }
+/* Attractive Blue Send Message Button */
+.contact-btn {
+  width: 100%;
+  padding: 15px;
+  background: #007bff;             /* Blue color */
+  color: white;
+  font-size: 18px;
+  font-weight: 700;                /* Bold text */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.25);
+}
+
+.contact-btn:hover {
+  background: #005fcc;             /* Darker blue on hover */
+  box-shadow: 0 6px 16px rgba(0, 95, 204, 0.35);
+  transform: translateY(-2px);
+}
+
+.contact-btn:active {
+  transform: scale(0.97);
+}
